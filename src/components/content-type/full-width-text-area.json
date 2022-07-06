@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_type_full_width_text_areas",
+  "info": {
+    "displayName": "Full Width Text Area",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

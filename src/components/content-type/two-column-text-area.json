@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_type_two_column_text_areas",
+  "info": {
+    "displayName": "Two Column Text Area",
+    "icon": "grip-lines-vertical"
+  },
+  "options": {},
+  "attributes": {
+    "left_column": {
+      "type": "richtext"
+    },
+    "right_column": {
+      "type": "richtext"
+    }
+  }
+}
