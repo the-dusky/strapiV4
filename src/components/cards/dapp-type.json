@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cards_dapp_types",
+  "info": {
+    "displayName": "DApp Type",
+    "icon": "coins"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "defi",
+        "games",
+        "communications",
+        "NFTs",
+        "amm",
+        "social"
+      ]
+    }
+  }
+}

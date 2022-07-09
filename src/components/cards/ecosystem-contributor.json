@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_ecosystem_contributors",
+  "info": {
+    "displayName": "Ecosystem Contributor",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "wallet",
+        "validator",
+        "dev_shop"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cards_contributor_types",
+  "info": {
+    "displayName": "Contributor Type",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "validator",
+        "developer",
+        "fund",
+        "wallet",
+        "tool",
+        "infrastructure"
+      ],
+      "required": true
+    }
+  }
+}

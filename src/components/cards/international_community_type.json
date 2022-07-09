@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cards_international_community_types",
+  "info": {
+    "displayName": "International Community Type",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "north_america",
+        "south_america",
+        "europe",
+        "africa",
+        "asia",
+        "language"
+      ]
+    }
+  }
+}

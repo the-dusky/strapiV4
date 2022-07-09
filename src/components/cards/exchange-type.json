@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_exchange_types",
+  "info": {
+    "displayName": "Exchange Type",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "DEX",
+        "CEX"
+      ],
+      "required": true
+    }
+  }
+}

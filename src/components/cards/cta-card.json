@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_cards_cta_cards",
+  "info": {
+    "displayName": "CTA Card",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 35,
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "maxLength": 35,
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 150
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_cards_node_types",
+  "info": {
+    "displayName": "Node Type",
+    "icon": "bezier-curve"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Inactive"
+      ]
+    },
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive"
+      ]
+    }
+  }
+}

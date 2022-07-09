@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_cards_agent_brochure_cards",
+  "info": {
+    "displayName": "Agent Brochure Card",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "anchor_title": {
+      "type": "string",
+      "required": true
+    },
+    "card_title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title_short": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cards_nft_types",
+  "info": {
+    "displayName": "NFT Type",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "nft_type": {
+      "type": "enumeration",
+      "enum": [
+        "Art",
+        "Collectible",
+        "Games",
+        "Music"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_cards_what_wallet_use_cards",
+  "info": {
+    "displayName": "What Wallet Use Card",
+    "icon": "money-check"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "note": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
