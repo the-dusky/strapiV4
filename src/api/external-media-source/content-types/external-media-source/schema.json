@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "external_media_sources",
+  "info": {
+    "singularName": "external-media-source",
+    "pluralName": "external-media-sources",
+    "displayName": "External Media Source"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
