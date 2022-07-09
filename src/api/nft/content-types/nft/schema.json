@@ -34,7 +34,7 @@
     "link": {
       "type": "string"
     },
-    "types": {
+    "type": {
       "type": "component",
       "repeatable": true,
       "component": "cards.nft-type"

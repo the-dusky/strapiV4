@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_grid_headers",
+  "info": {
+    "singularName": "card-grid-header",
+    "pluralName": "card-grid-headers",
+    "displayName": "Card Grid Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "card_grids": {
+      "type": "enumeration",
+      "enum": [
+        "DApps",
+        "Contributors",
+        "Tools_Wallets",
+        "International_Communities",
+        "Exchanges",
+        "NFTs",
+        "Partners",
+        "Validators"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subtitle": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

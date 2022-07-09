@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "developer_pathways",
+  "info": {
+    "singularName": "developer-pathway",
+    "pluralName": "developer-pathways",
+    "displayName": "Developer Pathway"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "resource": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dev-resource.developer-resource"
+    }
+  }
+}

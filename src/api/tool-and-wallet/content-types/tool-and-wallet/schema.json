@@ -55,7 +55,7 @@
         }
       }
     },
-    "types": {
+    "type": {
       "type": "component",
       "repeatable": true,
       "component": "cards.tool-and-wallet-type",

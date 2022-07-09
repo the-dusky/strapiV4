@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "ecosystem_dapps",
+  "collectionName": "nav_items",
   "info": {
-    "singularName": "ecosystem-dapp",
-    "pluralName": "ecosystem-dapps",
-    "displayName": "Ecosystem - dApp"
+    "singularName": "nav-item",
+    "pluralName": "nav-items",
+    "displayName": "NAV Item"
   },
   "options": {
     "draftAndPublish": true
@@ -15,17 +15,28 @@
     }
   },
   "attributes": {
-    "name": {
+    "text": {
       "type": "string",
-      "required": true,
-      "unique": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "logo": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "external_link": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "icon": {
       "allowedTypes": [
         "images"
       ],
@@ -38,34 +49,6 @@
       },
       "required": false
     },
-    "link": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "type": {
-      "type": "component",
-      "repeatable": true,
-      "component": "cards.dapp-type",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "sort": {
-      "type": "integer",
-      "unique": false,
-      "min": 1,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "description": {
       "pluginOptions": {
         "i18n": {
@@ -74,13 +57,23 @@
       },
       "type": "string"
     },
-    "cta_title": {
+    "display_on_header": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
+      "type": "boolean",
+      "default": true
+    },
+    "display_on_footer": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": true
     }
   }
 }
