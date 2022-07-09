@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scrt_buying_options",
+  "info": {
+    "singularName": "scrt-buying-option",
+    "pluralName": "scrt-buying-options",
+    "displayName": "SCRT Buying Option"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buy_scrt_option": {
+      "type": "component",
+      "repeatable": true,
+      "component": "get-scrt.scrt-buying-option"
+    }
+  }
+  
+}

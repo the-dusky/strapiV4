@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_get_scrt_scrt_buying_options",
+  "info": {
+    "displayName": "SCRT Buying Option",
+    "icon": "money-bill-wave-alt"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cta_title": {
+      "type": "string"
+    },
+    "cta_url": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "group": {
+      "type": "string"
+    }
+  }
+}
