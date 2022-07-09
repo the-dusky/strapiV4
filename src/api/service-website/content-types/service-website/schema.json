@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_websites",
+  "info": {
+    "singularName": "service-website",
+    "pluralName": "service-websites",
+    "displayName": "Service - Website"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "service_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive"
+      ]
+    },
+    "reported_on": {
+      "type": "datetime",
+      "default": "0000-03-01T19:48:04.000Z"
+    }
+  }
+}

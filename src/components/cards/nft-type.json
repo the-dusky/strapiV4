@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "nft_type": {
+    "name": {
       "type": "enumeration",
       "enum": [
         "Art",

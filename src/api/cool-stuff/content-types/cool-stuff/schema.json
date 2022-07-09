@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cool_stuff_plural",
+  "info": {
+    "singularName": "cool-stuff",
+    "pluralName": "cool-stuff-plural",
+    "displayName": "Cool Stuff"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ecosystem.type",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "cta_title": {
+      "type": "string"
+    }
+  }
+}

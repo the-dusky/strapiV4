@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ecosystem_types",
+  "info": {
+    "displayName": "type",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "communications",
+        "games",
+        "defi",
+        "NFTs",
+        "fund",
+        "validator",
+        "developer",
+        "wallet",
+        "tool",
+        "block_explorer",
+        "CEX",
+        "DEX"
+      ]
+    }
+  }
+}

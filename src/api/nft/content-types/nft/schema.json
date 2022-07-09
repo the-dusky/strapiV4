@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nfts",
+  "info": {
+    "singularName": "nft",
+    "pluralName": "nfts",
+    "displayName": "NFT"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "types": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.nft-type"
+    },
+    "sort": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cta_title": {
+      "type": "string"
+    }
+  }
+}

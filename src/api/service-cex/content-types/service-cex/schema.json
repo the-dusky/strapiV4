@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_cexes",
+  "info": {
+    "singularName": "service-cex",
+    "pluralName": "service-cexes",
+    "displayName": "Service - CEX"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "service_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false
+    },
+    "deposit_status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive"
+      ]
+    },
+    "withdraws_status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive"
+      ]
+    },
+    "trading_status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive"
+      ]
+    },
+    "reported_on": {
+      "type": "datetime",
+      "default": "0000-01-20T07:48:04.000Z"
+    }
+  }
+}

@@ -53,7 +53,7 @@
         }
       }
     },
-    "types": {
+    "type": {
       "type": "component",
       "repeatable": true,
       "component": "cards.contributor-type",
