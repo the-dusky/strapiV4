@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ecosystem_nfts",
+  "info": {
+    "singularName": "ecosystem-nft",
+    "pluralName": "ecosystem-nfts",
+    "displayName": "Ecosystem - NFT"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "sort": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

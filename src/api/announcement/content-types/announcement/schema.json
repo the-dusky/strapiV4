@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "accouncements",
+  "collectionName": "announcements",
   "info": {
-    "singularName": "accouncement",
-    "pluralName": "accouncements",
-    "displayName": "Accouncement",
+    "singularName": "announcement",
+    "pluralName": "announcements",
+    "displayName": "Announcement",
     "description": ""
   },
   "options": {
@@ -86,12 +86,13 @@
       "type": "string"
     },
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false

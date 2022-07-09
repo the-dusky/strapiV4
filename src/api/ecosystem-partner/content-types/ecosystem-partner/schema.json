@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ecosystem_partners",
+  "info": {
+    "singularName": "ecosystem-partner",
+    "pluralName": "ecosystem-partners",
+    "displayName": "Ecosystem - Partner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false
+    },
+    "order": {
+      "type": "integer"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
