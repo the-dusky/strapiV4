@@ -10,10 +10,21 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
-    "x": {
-      "type": "string"
+    "top": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::announcement.announcement"
+    },
+    "bottom": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::announcement.announcement"
     }
   }
 }

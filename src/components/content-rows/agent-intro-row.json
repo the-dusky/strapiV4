@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_content_rows_agent_intro_rows",
+  "info": {
+    "displayName": "Agent Intro Row",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "paragraph": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "pluginOptions": {}
+    },
+    "image_position": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ],
+      "required": true,
+      "default": "Right"
+    }
+  }
+}
