@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_explainers",
+  "info": {
+    "singularName": "home-explainer",
+    "pluralName": "home-explainers",
+    "displayName": "Home - Explainer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

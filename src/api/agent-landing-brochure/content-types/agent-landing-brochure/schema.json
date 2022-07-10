@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "agent_landing_brochures",
+  "info": {
+    "singularName": "agent-landing-brochure",
+    "pluralName": "agent-landing-brochures",
+    "displayName": "Agent Landing - Brochure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

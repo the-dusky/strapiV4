@@ -1,0 +1,116 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_contents",
+  "info": {
+    "singularName": "about-content",
+    "pluralName": "about-contents",
+    "displayName": "About - Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "middle_first": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "middle_second": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bottom_first": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bottom_second": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bottom_third": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bottom_fourth": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bottom_fifth": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "choose_privacy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.text-area",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

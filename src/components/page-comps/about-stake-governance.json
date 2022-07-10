@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_comps_about_stake_governances",
+  "info": {
+    "displayName": "About Stake Governance",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}

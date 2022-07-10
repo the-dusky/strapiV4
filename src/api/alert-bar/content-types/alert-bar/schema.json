@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "alert_bars",
+  "info": {
+    "singularName": "alert-bar",
+    "pluralName": "alert-bars",
+    "displayName": "Alert Bar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

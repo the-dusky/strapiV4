@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_alerts",
+  "info": {
+    "singularName": "services-alert",
+    "pluralName": "services-alerts",
+    "displayName": "Services - Alert"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

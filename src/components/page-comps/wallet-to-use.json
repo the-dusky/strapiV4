@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_comps_wallet_to_uses",
+  "info": {
+    "displayName": "Wallet To Use",
+    "icon": "wallet"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "options": {
+      "type": "string"
+    },
+    "whatWalletUseCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.what-wallet-use-card"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

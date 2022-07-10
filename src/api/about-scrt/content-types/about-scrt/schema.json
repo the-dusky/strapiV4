@@ -1,0 +1,109 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_scrts",
+  "info": {
+    "singularName": "about-scrt",
+    "pluralName": "about-scrts",
+    "displayName": "About - SCRT"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "about_scrt_get_started": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-comps.about-scrt-get-started",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "about_scrt_major_functions_paying_fees": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.about-scrt-major-functions",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "about_scrt_major_functions_staking": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.about-scrt-major-functions",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "about_scrt_major_functions_governance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.about-scrt-major-functions",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "about_scrt_purchase": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-comps.about-scrt-purchase",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "purchase_method_cluster": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link-cluster",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "community_support": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-comps.community-support",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "wallet_to_use": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-comps.wallet-to-use",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "stake_governance_apps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-comps.about-stake-governance",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

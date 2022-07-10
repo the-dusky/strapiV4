@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "agent_landing_intro_rows",
+  "info": {
+    "singularName": "agent-landing-intro-row",
+    "pluralName": "agent-landing-intro-rows",
+    "displayName": "Agent Landing - Intro Rows"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "agent_landing_email_forms",
+  "info": {
+    "singularName": "agent-landing-email-form",
+    "pluralName": "agent-landing-email-forms",
+    "displayName": "Agent Landing - Email Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

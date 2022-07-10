@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "nav_headers",
+  "info": {
+    "singularName": "nav-header",
+    "pluralName": "nav-headers",
+    "displayName": "NAV - Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

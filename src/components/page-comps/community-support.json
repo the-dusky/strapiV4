@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_comps_community_supports",
+  "info": {
+    "displayName": "Community Support",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.link"
+    }
+  }
+}

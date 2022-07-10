@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_cta_cards",
+  "info": {
+    "singularName": "home-cta-card",
+    "pluralName": "home-cta-cards",
+    "displayName": "Home - CTA Cards",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

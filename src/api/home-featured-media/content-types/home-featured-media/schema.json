@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_featured_medias",
+  "info": {
+    "singularName": "home-featured-media",
+    "pluralName": "home-featured-medias",
+    "displayName": "Home - Featured Media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

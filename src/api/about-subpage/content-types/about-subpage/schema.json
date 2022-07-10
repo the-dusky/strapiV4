@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_subpages",
+  "info": {
+    "singularName": "about-subpage",
+    "pluralName": "about-subpages",
+    "displayName": "About - Subpages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

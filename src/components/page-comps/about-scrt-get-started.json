@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_page_comps_about_scrt_get_starteds",
+  "info": {
+    "displayName": "About SCRT - Get Started",
+    "icon": "hourglass-start",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "anchor_buy_scrt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link"
+    },
+    "anchor_store_scrt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link"
+    },
+    "anchor_stake_scrt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link"
+    },
+    "anchor_scrt_governance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link"
+    },
+    "anchor_scrt_apps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "agent_landing_heroes",
+  "info": {
+    "singularName": "agent-landing-hero",
+    "pluralName": "agent-landing-heroes",
+    "displayName": "Agent Landing - Hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    }
+  }
+}

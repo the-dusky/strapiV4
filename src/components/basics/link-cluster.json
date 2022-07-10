@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_basics_link_clusters",
+  "info": {
+    "displayName": "Link Cluster",
+    "icon": "layer-group"
+  },
+  "options": {},
+  "attributes": {
+    "cluster_title": {
+      "type": "string"
+    },
+    "link_with_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link-with-image"
+    },
+    "level": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "ecosystem_roadmaps",
   "info": {
     "singularName": "ecosystem-roadmap",
     "pluralName": "ecosystem-roadmaps",
-    "displayName": "Ecosystem - Roadmap"
+    "displayName": "Ecosystem - Roadmap",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,21 +16,20 @@
     }
   },
   "attributes": {
-    "ecosystemRoadmap": 
-    {
+    "ecosystemRoadmap": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": false
+      }
     }
   }
 }

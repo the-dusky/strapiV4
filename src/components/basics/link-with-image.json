@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_basics_link_with_images",
+  "info": {
+    "displayName": "Link With Image",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "cluster_title": {
+      "type": "string"
+    }
+  }
+}
