@@ -9,10 +9,61 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
-    "x": {
-      "type": "string"
+    "about_secret_tokens_bridges": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-comps.about-subpage",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "about_secret_finance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-comps.about-subpage",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "secret_nfts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-comps.about-subpage",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-comps.about-subpage",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "secret_contracts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-comps.about-subpage",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

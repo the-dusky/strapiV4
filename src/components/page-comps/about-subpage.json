@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_comps_about_subpages",
+  "info": {
+    "displayName": "About - Subpage",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "hero_subtitle": {
+      "type": "string"
+    },
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_body": {
+      "type": "richtext"
+    },
+    "hero_color": {
+      "type": "string"
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "main_content": {
+      "type": "richtext"
+    }
+  }
+}
