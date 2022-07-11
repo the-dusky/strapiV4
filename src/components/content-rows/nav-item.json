@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_rows_nav_items",
+  "info": {
+    "displayName": "Nav - Item",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "nav_item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::nav-item.nav-item"
+    },
+    "sort_name": {
+      "type": "string"
+    },
+    "sub_category": {
+      "type": "string"
+    }
+  }
+}

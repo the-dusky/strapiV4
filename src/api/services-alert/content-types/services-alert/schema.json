@@ -11,8 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "x": {
-      "type": "string"
+    "message": {
+      "type": "richtext",
+      "default": "If you suspect there is an issue occurring contact us here."
+    },
+    "experiencing_issues": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

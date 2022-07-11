@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_rows_nav_groups",
+  "info": {
+    "displayName": "NAV - Group",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "nav_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-rows.nav-item"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "required": false,
+      "multiple": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -11,8 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "x": {
-      "type": "string"
+    "nav_groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-rows.nav-group"
     }
   }
 }
