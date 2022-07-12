@@ -18,7 +18,7 @@
     "options": {
       "type": "string"
     },
-    "whatWalletUseCard": {
+    "what_wallet_use_card": {
       "type": "component",
       "repeatable": true,
       "component": "cards.what-wallet-use-card"
