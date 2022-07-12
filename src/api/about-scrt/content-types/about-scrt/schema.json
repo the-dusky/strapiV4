@@ -28,7 +28,7 @@
     "about_scrt_major_functions_paying_fees": {
       "type": "component",
       "repeatable": true,
-      "component": "cards.about-scrt-major-functions",
+      "component": "cards.about-scrt-major-function",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -38,7 +38,7 @@
     "about_scrt_major_functions_staking": {
       "type": "component",
       "repeatable": true,
-      "component": "cards.about-scrt-major-functions",
+      "component": "cards.about-scrt-major-function",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -48,7 +48,7 @@
     "about_scrt_major_functions_governance": {
       "type": "component",
       "repeatable": true,
-      "component": "cards.about-scrt-major-functions",
+      "component": "cards.about-scrt-major-function",
       "pluginOptions": {
         "i18n": {
           "localized": true
