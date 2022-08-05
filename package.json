@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "local": "DATABASE_LOCATION=local strapi develop",
+    "develop": "DATABASE_LOCATION=remote strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -20,6 +21,7 @@
     "pg-connection-string": "^2.5.0",
     "sqlite3": "^5.0.2",
     "strapi-plugin-populate-deep": "^0.1.2",
+    "strapi-plugin-website-builder": "^2.2.1",
     "strapi-provider-upload-imagekit": "^4.0.2"
   },
   "author": {
