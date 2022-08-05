@@ -19,7 +19,9 @@
       "type": "dynamiczone",
       "components": [
         "dynamics.text-column-single",
-        "dynamics.text-column-double"
+        "dynamics.text-column-double",
+        "dynamics.article-hero",
+        "dynamics.article-image"
       ]
     }
   }
