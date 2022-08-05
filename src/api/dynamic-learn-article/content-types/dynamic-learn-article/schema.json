@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynamic_learn_articles",
+  "info": {
+    "singularName": "dynamic-learn-article",
+    "pluralName": "dynamic-learn-articles",
+    "displayName": "Dynamic - Learn Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "route": {
+      "type": "string"
+    },
+    "Components": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamics.text-column-single"
+      ]
+    }
+  }
+}

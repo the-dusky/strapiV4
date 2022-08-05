@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_dynamics_text_column_singles",
+  "info": {
+    "displayName": "Text Column - Single",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph_title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "narrow",
+        "standard",
+        "wide"
+      ]
+    },
+    "paragraph_subtitle": {
+      "type": "string"
+    }
+  }
+}
