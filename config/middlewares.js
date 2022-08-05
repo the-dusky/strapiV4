@@ -7,8 +7,9 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'ik.imagekit.io'],
-          'media-src': ["'self'", 'data:', 'blob:', 'ik.imagekit.io'],
+          'script-src': ["'self'","'unsafe-eval'"],
+          'img-src': ["'self'", 'data:', 'blob:', 'ik.imagekit.io','dl.airtable.com'],
+          'media-src': ["'self'", 'data:', 'blob:', 'ik.imagekit.io','dl.airtable.com'],
           upgradeInsecureRequests: null,
         },
       },
