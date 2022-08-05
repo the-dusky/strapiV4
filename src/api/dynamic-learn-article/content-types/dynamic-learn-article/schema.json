@@ -18,7 +18,8 @@
     "Components": {
       "type": "dynamiczone",
       "components": [
-        "dynamics.text-column-single"
+        "dynamics.text-column-single",
+        "dynamics.text-column-double"
       ]
     }
   }

@@ -15,7 +15,8 @@
     "page_set": {
       "type": "enumeration",
       "enum": [
-        "Learn Article"
+        "Learn Article",
+        "dynamic-learn-articles"
       ]
     },
     "template": {

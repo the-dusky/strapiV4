@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_dynamics_text_column_doubles",
+  "info": {
+    "displayName": "Text Column - Double",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "first_paragraph_title": {
+      "type": "string"
+    },
+    "first_paragraph": {
+      "type": "richtext"
+    },
+    "second_paragraph_title": {
+      "type": "string"
+    },
+    "second_paragraph": {
+      "type": "richtext"
+    }
+  }
+}

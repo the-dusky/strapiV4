@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_dynamics_article_images",
+  "info": {
+    "displayName": "Article - Image"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
