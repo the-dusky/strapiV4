@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dynamics_article_heroes",
+  "info": {
+    "displayName": "Article - Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
