@@ -20,8 +20,8 @@
       "components": [
         "dynamics.text-column-single",
         "dynamics.text-column-double",
-        "dynamics.article-hero",
-        "dynamics.article-image"
+        "dynamics.hero",
+        "dynamics.image"
       ]
     }
   }
