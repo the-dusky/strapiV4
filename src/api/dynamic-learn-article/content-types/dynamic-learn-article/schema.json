@@ -15,13 +15,20 @@
     "route": {
       "type": "string"
     },
-    "Components": {
+    "Components_2": {
       "type": "dynamiczone",
       "components": [
         "dynamics.text-column-single",
         "dynamics.text-column-double",
-        "dynamics.article-hero",
         "dynamics.article-image"
+      ]
+    },
+    "comp_1_article_hero": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
       ]
     }
   }
