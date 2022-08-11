@@ -24,12 +24,9 @@
       ]
     },
     "comp_1_article_hero": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.article-hero"
     }
   }
 }
