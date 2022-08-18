@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_dynamics_text_image_column_doubles",
+  "info": {
+    "displayName": "Text Image Column - Double",
+    "icon": "fan"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph_title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "image_description": {
+      "type": "string"
+    }
+  }
+}
