@@ -27,6 +27,11 @@
       "type": "component",
       "repeatable": false,
       "component": "dynamics.article-hero"
+    },
+    "comp_3_carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.lrn-pg-crsl"
     }
   }
 }
