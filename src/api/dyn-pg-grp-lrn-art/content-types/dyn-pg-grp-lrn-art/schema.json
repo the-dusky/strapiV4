@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dyn_pg_grp_lrn_arts",
+  "info": {
+    "singularName": "dyn-pg-grp-lrn-art",
+    "pluralName": "dyn-pg-grp-lrn-arts",
+    "displayName": "Dynamic Page Groups - Learn Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "learn_pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamic-pages.learn-page"
+    }
+  }
+}

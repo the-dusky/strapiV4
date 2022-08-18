@@ -1,0 +1,18 @@
+{
+  "collectionName": "comps_dyn_pgs_lrn_pg",
+  "info": {
+    "displayName": "Learn Page",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "dynamic_learn_article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dynamic-learn-article.dynamic-learn-article"
+    }
+  }
+}
