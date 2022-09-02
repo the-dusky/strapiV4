@@ -16,13 +16,14 @@
       "type": "enumeration",
       "enum": [
         "Learn Article",
-        "dynamic-learn-articles"
+        "Learn Subpage"
       ]
     },
     "template": {
       "type": "enumeration",
       "enum": [
-        "LearnArticle"
+        "LearnArticle",
+        "LearnSubpage"
       ]
     }
   }

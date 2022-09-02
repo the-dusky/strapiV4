@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dyn_lrn_sub",
+  "info": {
+    "singularName": "dynamic-learn-subpage",
+    "pluralName": "dynamic-learn-subpages",
+    "displayName": "Dynamic - Learn Subpages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "route": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "comp_1_learn_header": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "dynamics.dyn-lrn-hdr"
+    },
+    "components_2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "dynamics.lrn-pg-crsl"
+      ]
+    }
+  }
+}
