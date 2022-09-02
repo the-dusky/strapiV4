@@ -34,7 +34,7 @@
       },
       "component": "dynamics.dyn-lrn-hdr"
     },
-    "components_2": {
+    "Components_2": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -42,7 +42,7 @@
       },
       "type": "dynamiczone",
       "components": [
-        "dynamics.lrn-pg-crsl"
+        "dynamics.carousel"
       ]
     }
   }

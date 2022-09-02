@@ -1,0 +1,22 @@
+{
+  "collectionName": "comp_crsl",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "circle-notch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "dynamic_page_groups_learn_article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dyn-pg-grp-lrn-art.dyn-pg-grp-lrn-art"
+    }
+  }
+}
