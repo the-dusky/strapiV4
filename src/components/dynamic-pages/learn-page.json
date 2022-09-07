@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
     "dynamic_learn_article": {
@@ -16,11 +16,12 @@
       "target": "api::dynamic-learn-article.dynamic-learn-article"
     },
     "card_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
