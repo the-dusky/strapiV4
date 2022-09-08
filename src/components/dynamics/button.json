@@ -2,16 +2,18 @@
   "collectionName": "comp_btn",
   "info": {
     "displayName": "Button",
-    "icon": "times-circle"
+    "icon": "times-circle",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "text": {
       "type": "string",
@@ -20,6 +22,11 @@
     "link": {
       "type": "string",
       "required": false
+    },
+    "is_primary": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
