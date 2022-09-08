@@ -27,7 +27,8 @@
     "comp_1_article_hero": {
       "type": "component",
       "repeatable": false,
-      "component": "dynamics.article-hero"
+      "component": "dynamics.article-hero",
+      "required": true
     },
     "comp_3_carousel": {
       "type": "component",

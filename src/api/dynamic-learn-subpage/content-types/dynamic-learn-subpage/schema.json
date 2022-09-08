@@ -42,17 +42,7 @@
           "localized": true
         }
       },
-      "component": "dynamics.lrn-pg-crsl"
-    },
-    "comp_3_callout_box": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "dynamics.callout-box"
+      "component": "dynamics.carousel"
     }
   }
 }
