@@ -34,16 +34,25 @@
       },
       "component": "dynamics.dyn-lrn-hdr"
     },
-    "Components_2": {
+    "comp_2_carousel": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "dynamiczone",
-      "components": [
-        "dynamics.carousel"
-      ]
+      "component": "dynamics.lrn-pg-crsl"
+    },
+    "comp_3_callout_box": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "dynamics.callout-box"
     }
   }
 }

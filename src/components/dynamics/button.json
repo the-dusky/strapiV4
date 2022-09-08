@@ -1,0 +1,25 @@
+{
+  "collectionName": "comp_btn",
+  "info": {
+    "displayName": "Button",
+    "icon": "times-circle"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
