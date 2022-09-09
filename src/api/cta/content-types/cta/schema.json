@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "cout-box",
+  "collectionName": "ctas",
   "info": {
-    "singularName": "cout-box",
-    "pluralName": "cout-boxes",
-    "displayName": "Reusable Components - Callout Box",
+    "singularName": "cta",
+    "pluralName": "ctas",
+    "displayName": "Reusable Components - CTA",
     "description": ""
   },
   "options": {
@@ -22,9 +22,10 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "callout_box": {
+    "cta": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -32,7 +33,7 @@
           "localized": true
         }
       },
-      "component": "dynamics.callout-box"
+      "component": "dynamics.cta"
     }
   }
 }

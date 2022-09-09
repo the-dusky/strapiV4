@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dynamics_cta_grids",
+  "info": {
+    "displayName": "CTA Grid",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "type": "integer",
+      "required": true,
+      "default": 3
+    },
+    "ctas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamics.optional-cta",
+      "required": true
+    }
+  }
+}

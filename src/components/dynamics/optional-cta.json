@@ -1,26 +1,26 @@
 {
-  "collectionName": "comp_opt_cout_b",
+  "collectionName": "comp_opt_cta",
   "info": {
-    "displayName": "Optional - Callout Box",
-    "icon": "ambulance",
+    "displayName": "Optional - CTA",
+    "icon": "bullhorn",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "preconfiged_callout_box": {
+    "preconfiged_cta": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::cout-box.cout-box"
+      "target": "api::cta.cta"
     },
     "create_custom": {
       "type": "boolean",
       "default": false,
       "required": true
     },
-    "custom_callout_box": {
+    "custom_cta": {
       "type": "component",
       "repeatable": false,
-      "component": "dynamics.callout-box"
+      "component": "dynamics.cta"
     }
   }
 }

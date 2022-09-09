@@ -1,8 +1,8 @@
 {
-  "collectionName": "comp_coutbx",
+  "collectionName": "comp_cta",
   "info": {
-    "displayName": "Callout Box",
-    "icon": "archive",
+    "displayName": "CTA",
+    "icon": "bullhorn",
     "description": ""
   },
   "options": {},
@@ -10,23 +10,22 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "string"
-    },
-    "cta_text": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "dynamics.button"
     }
   }

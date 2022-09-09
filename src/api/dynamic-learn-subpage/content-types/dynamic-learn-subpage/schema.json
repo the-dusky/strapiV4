@@ -52,17 +52,17 @@
           "localized": true
         }
       },
-      "component": "dynamics.callout-box"
+      "component": "dynamics.optional-callout-box"
     },
-    "comp_4_callout_box": {
+    "comp_4_cta_grid": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "dynamics.optional-callout-box"
+      "component": "dynamics.cta-grid"
     }
   }
 }
