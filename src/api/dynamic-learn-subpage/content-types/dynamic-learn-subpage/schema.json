@@ -34,15 +34,10 @@
       },
       "component": "dynamics.dyn-lrn-hdr"
     },
-    "comp_2_carousel": {
+    "comp_2_carousel_group": {
       "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "dynamics.carousel"
+      "repeatable": false,
+      "component": "dynamics.carousel-group"
     },
     "comp_3_callout_box": {
       "type": "component",
@@ -56,12 +51,7 @@
     },
     "comp_4_cta_grid": {
       "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "repeatable": false,
       "component": "dynamics.cta-grid"
     }
   }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "comp_crsl_grp",
+  "info": {
+    "displayName": "Carousel Group",
+    "icon": "copy"
+  },
+  "options": {},
+  "attributes": {
+    "carousels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamics.carousel"
+    }
+  }
+}
