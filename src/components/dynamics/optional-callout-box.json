@@ -1,0 +1,24 @@
+{
+  "collectionName": "comp_opt_cout_b",
+  "info": {
+    "displayName": "Optional - Callout Box",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preconfiged_callout_box": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cout-box.cout-box"
+    },
+    "make_custom_box": {
+      "type": "boolean"
+    },
+    "custom_callout_box": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.callout-box"
+    }
+  }
+}

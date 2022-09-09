@@ -53,6 +53,16 @@
         }
       },
       "component": "dynamics.callout-box"
+    },
+    "comp_4_callout_box": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "dynamics.optional-callout-box"
     }
   }
 }
