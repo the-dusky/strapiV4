@@ -22,7 +22,9 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "regex": "/^\\/[a-z0-9]+$/i"
     },
     "comp_1_learn_header": {
       "type": "component",
