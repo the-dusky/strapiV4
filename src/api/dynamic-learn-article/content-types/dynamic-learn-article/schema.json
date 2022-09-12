@@ -14,7 +14,7 @@
   "attributes": {
     "route": {
       "type": "string",
-      "regex": "/^\\/[a-z0-9]+$/i",
+      "regex": "\\/[a-zA-Z]+$",
       "required": true,
       "unique": true
     },
@@ -23,12 +23,12 @@
       "required": true
     },
     "thumbnail_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Components_2": {
       "type": "dynamiczone",
