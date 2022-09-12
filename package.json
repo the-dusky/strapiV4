@@ -11,6 +11,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@stakeordie/strapi-plugin-populate-deep-extended": "^0.0.1",
     "@strapi/plugin-graphql": "^4.3.6",
     "@strapi/plugin-i18n": "4.3.6",
     "@strapi/plugin-users-permissions": "4.3.6",
@@ -20,7 +21,7 @@
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "sqlite3": "^5.0.2",
-    "@stakeordie/strapi-plugin-populate-deep-extended": "^0.0.1",
+    "strapi-plugin-custom-api": "^1.0.3",
     "strapi-plugin-website-builder": "^2.2.1",
     "strapi-provider-upload-imagekit": "^4.0.2"
   },

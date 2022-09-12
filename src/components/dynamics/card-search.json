@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_dynamics_card_searches",
+  "info": {
+    "displayName": "Card - Search",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "spotlight_title": {
+      "type": "string"
+    },
+    "source_api": {
+      "type": "string"
+    },
+    "tag_field": {
+      "type": "string"
+    },
+    "empty_title": {
+      "type": "string"
+    },
+    "empty_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "empty_subtitle": {
+      "type": "string"
+    }
+  }
+}

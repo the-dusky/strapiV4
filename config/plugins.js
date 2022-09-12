@@ -36,4 +36,7 @@ module.exports = ({ env }) => ({
       },
     }
   },
+  'custom-api': {
+    enabled: true
+  },
 });

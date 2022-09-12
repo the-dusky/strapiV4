@@ -10825,6 +10825,11 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.1.1.tgz#1f19c4d3f6278c52efd08a94574a2a8d32b7d092"
   integrity sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw==
 
+strapi-plugin-custom-api@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-custom-api/-/strapi-plugin-custom-api-1.0.3.tgz#14a355038b8251738ba2c6096c2fa608c6947cca"
+  integrity sha512-n4NFz5Am/XLFFqmcWm2nxmtLtSZhYYU7hyJVbGHFrS2QVQZMCvQi60V8ORJnxiwpL0lviPWYw6N4WfUEvfxaCg==
+
 strapi-plugin-website-builder@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/strapi-plugin-website-builder/-/strapi-plugin-website-builder-2.2.1.tgz#60dd65ba014a06eadfccdf8f04ddd54296d8d692"
