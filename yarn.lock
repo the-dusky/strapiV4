@@ -1903,6 +1903,11 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
+"@stakeordie/strapi-plugin-populate-deep-extended@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@stakeordie/strapi-plugin-populate-deep-extended/-/strapi-plugin-populate-deep-extended-0.0.1.tgz#d539a4b3488be7d35d3499485d62455e3630996b"
+  integrity sha512-AtlROLPOLPygV6IM8s39DbxLUJlL8MsKIEKbQJoa3vLmNXAzl2J3fStC2U+TbWQAC8cqpnJqIlzs09UGvh8q4A==
+
 "@strapi/admin@4.3.2":
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/@strapi/admin/-/admin-4.3.2.tgz#202d4b3fc84b352ba4056967041efa567d0f4148"
@@ -10731,11 +10736,6 @@ std-env@^3.0.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.1.1.tgz#1f19c4d3f6278c52efd08a94574a2a8d32b7d092"
   integrity sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw==
-
-strapi-plugin-populate-deep@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-0.1.2.tgz#89e9fa0dd10bb1c57336625f765cff98950dafa2"
-  integrity sha512-cYmK5g4QqrGAWjUzEnd6P1XcqeXFcu/2yk/lg3ClQDnp46vb9i03CT7tW2YHz9JSf8g371iq0JPholL1q7Q1CA==
 
 strapi-plugin-website-builder@^2.2.1:
   version "2.2.1"
