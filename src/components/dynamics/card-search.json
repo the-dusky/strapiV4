@@ -2,7 +2,8 @@
   "collectionName": "components_dynamics_card_searches",
   "info": {
     "displayName": "Card - Search",
-    "icon": "search"
+    "icon": "search",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,14 +23,28 @@
       "type": "string"
     },
     "empty_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "empty_subtitle": {
+      "type": "string"
+    },
+    "no_results_title": {
+      "type": "string"
+    },
+    "no_results_subtitle": {
+      "type": "string"
+    },
+    "no_results_image": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false
-    },
-    "empty_subtitle": {
-      "type": "string"
     }
   }
 }
