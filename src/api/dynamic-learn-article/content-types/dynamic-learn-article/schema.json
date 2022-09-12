@@ -18,6 +18,18 @@
       "required": true,
       "unique": true
     },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
     "Components_2": {
       "type": "dynamiczone",
       "components": [
