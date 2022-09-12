@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lrn_art_tgs",
+  "info": {
+    "singularName": "lrn-art-tg",
+    "pluralName": "lrn-art-tgs",
+    "displayName": "Tags - Learn Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "tag": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

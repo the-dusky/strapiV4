@@ -14,7 +14,7 @@
   "attributes": {
     "route": {
       "type": "string",
-      "regex": "\\/[a-zA-Z]+$",
+      "regex": "^\\/",
       "required": true,
       "unique": true
     },
@@ -49,6 +49,11 @@
       "type": "component",
       "repeatable": false,
       "component": "dynamics.carousel"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lrn-art-tg.lrn-art-tg"
     }
   }
 }
