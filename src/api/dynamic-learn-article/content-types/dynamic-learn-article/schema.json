@@ -30,6 +30,12 @@
         "images"
       ]
     },
+    "comp_1_article_hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.article-hero",
+      "required": true
+    },
     "Components_2": {
       "type": "dynamiczone",
       "components": [
@@ -38,12 +44,6 @@
         "dynamics.article-image",
         "dynamics.text-image-column-double"
       ]
-    },
-    "comp_1_article_hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.article-hero",
-      "required": true
     },
     "comp_3_carousel": {
       "type": "component",

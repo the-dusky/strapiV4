@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "dynamic_learn_portals",
+  "collectionName": "lrn_prtl",
   "info": {
     "singularName": "dynamic-learn-portal",
     "pluralName": "dynamic-learn-portals",
@@ -18,10 +18,19 @@
       "required": true,
       "unique": true
     },
-    "comp_1_carousel": {
+    "comp_1_learn_header": {
       "type": "component",
       "repeatable": false,
-      "component": "dynamics.carousel"
+      "component": "dynamics.dyn-lrn-hdr"
+    },
+    "components_2": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamics.cta-grid",
+        "dynamics.carousel",
+        "dynamics.card-search",
+        "dynamics.optional-callout-box"
+      ]
     }
   }
 }
