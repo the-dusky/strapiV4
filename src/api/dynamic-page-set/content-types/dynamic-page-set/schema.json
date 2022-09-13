@@ -16,14 +16,16 @@
       "type": "enumeration",
       "enum": [
         "Learn Article",
-        "Learn Subpage"
+        "Learn Subpage",
+        "Learn Portal"
       ]
     },
     "template": {
       "type": "enumeration",
       "enum": [
         "LearnArticle",
-        "LearnSubpage"
+        "LearnSubpage",
+        "LearnPortal"
       ]
     }
   }
