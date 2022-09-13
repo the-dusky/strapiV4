@@ -39,4 +39,7 @@ module.exports = ({ env }) => ({
   'custom-api': {
     enabled: true
   },
+  'import-export-entries': {
+    enabled: true,
+  },
 });

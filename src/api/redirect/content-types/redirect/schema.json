@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "redirects",
+  "info": {
+    "singularName": "redirect",
+    "pluralName": "redirects",
+    "displayName": "Redirects",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "match_route": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "regex": "^\\/"
+    },
+    "destination_route": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "^\\/"
+    }
+  }
+}
