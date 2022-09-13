@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "dynamic_learn_portals",
+  "info": {
+    "singularName": "dynamic-learn-portal",
+    "pluralName": "dynamic-learn-portals",
+    "displayName": "Dynamic - Learn Portal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "route": {
+      "type": "string",
+      "regex": "^\\/",
+      "required": true,
+      "unique": true
+    },
+    "comp_1_carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.carousel"
+    }
+  }
+}
