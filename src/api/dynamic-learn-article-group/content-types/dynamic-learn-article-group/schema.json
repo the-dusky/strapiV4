@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lrn_art_grp",
+  "info": {
+    "singularName": "dynamic-learn-article-group",
+    "pluralName": "dynamic-learn-article-groups",
+    "displayName": "Dynamic - Learn Article Groups",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "dynamic_learn_articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dynamic-learn-article.dynamic-learn-article"
+    }
+  }
+}
