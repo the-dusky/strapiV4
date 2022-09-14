@@ -17,6 +17,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::dyn-pg-grp-lrn-art.dyn-pg-grp-lrn-art"
+    },
+    "dynamic_learn_article_group": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dynamic-learn-article-group.dynamic-learn-article-group"
     }
   }
 }

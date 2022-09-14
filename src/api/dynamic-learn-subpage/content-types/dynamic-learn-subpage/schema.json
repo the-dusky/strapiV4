@@ -41,7 +41,7 @@
       "repeatable": false,
       "component": "dynamics.carousel-group"
     },
-    "comp_3_callout_box": {
+    "comp_3_optional_callout_box": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
