@@ -13,11 +13,6 @@
     "subtitle": {
       "type": "string"
     },
-    "dynamic_page_groups_learn_article": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::dyn-pg-grp-lrn-art.dyn-pg-grp-lrn-art"
-    },
     "dynamic_learn_article_group": {
       "type": "relation",
       "relation": "oneToOne",

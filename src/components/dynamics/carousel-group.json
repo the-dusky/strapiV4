@@ -2,7 +2,8 @@
   "collectionName": "comp_crsl_grp",
   "info": {
     "displayName": "Carousel Group",
-    "icon": "copy"
+    "icon": "copy",
+    "description": ""
   },
   "options": {},
   "attributes": {

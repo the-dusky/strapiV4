@@ -24,7 +24,7 @@
       },
       "type": "string",
       "required": true,
-      "regex": "/^\\/[a-z0-9]+$/i"
+      "regex":  "^\\/"
     },
     "comp_1_learn_header": {
       "type": "component",
@@ -34,7 +34,8 @@
           "localized": true
         }
       },
-      "component": "dynamics.dyn-lrn-hdr"
+      "component": "dynamics.learn-header",
+      "required": true
     },
     "comp_2_carousel_group": {
       "type": "component",

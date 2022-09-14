@@ -1,25 +1,25 @@
 {
-  "collectionName": "comps_dyn_lrn_hdrs",
+  "collectionName": "comp_dyn_lrn_hdr",
   "info": {
-    "displayName": "Learn Header Old",
-    "icon": "arrow-circle-up",
+    "displayName": "Learn Header",
+    "icon": "apple-alt",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "sub_title": {
+    "eyebrow_text": {
       "type": "string"
     },
     "title": {
       "type": "string"
     },
-    "about_text": {
-      "type": "text"
+    "subtitle": {
+      "type": "string"
     },
     "background_image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]

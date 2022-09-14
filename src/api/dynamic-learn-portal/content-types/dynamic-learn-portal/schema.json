@@ -21,7 +21,7 @@
     "comp_1_learn_header": {
       "type": "component",
       "repeatable": false,
-      "component": "dynamics.dyn-lrn-hdr"
+      "component": "dynamics.learn-header"
     },
     "components_2": {
       "type": "dynamiczone",
