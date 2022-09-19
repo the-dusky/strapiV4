@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_dynamics_article_videos",
+  "info": {
+    "displayName": "Article - Video",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

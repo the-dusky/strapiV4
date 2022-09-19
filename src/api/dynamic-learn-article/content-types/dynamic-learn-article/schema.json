@@ -42,7 +42,8 @@
         "dynamics.text-column-single",
         "dynamics.text-column-double",
         "dynamics.article-image",
-        "dynamics.text-image-column-double"
+        "dynamics.text-image-column-double",
+        "dynamics.article-video"
       ]
     },
     "comp_3_carousel": {
