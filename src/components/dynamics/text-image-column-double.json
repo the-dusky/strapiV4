@@ -31,6 +31,10 @@
         "right"
       ],
       "default": "right"
+    },
+    "is_anchor": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

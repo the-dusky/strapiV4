@@ -2,7 +2,8 @@
   "collectionName": "components_dynamics_text_column_singles",
   "info": {
     "displayName": "Text Column - Single",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,6 +23,10 @@
     },
     "paragraph_subtitle": {
       "type": "string"
+    },
+    "is_anchor": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_dynamics_text_column_doubles",
   "info": {
     "displayName": "Text Column - Double",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,6 +18,10 @@
     },
     "second_paragraph": {
       "type": "richtext"
+    },
+    "is_anchor": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
