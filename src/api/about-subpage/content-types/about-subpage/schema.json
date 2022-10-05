@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-subpage",
     "pluralName": "about-subpages",
-    "displayName": "About - Subpages"
+    "displayName": "About - Subpages",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -64,6 +65,36 @@
           "localized": true
         }
       }
+    },
+    "about_secret_bridges": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "page-comps.about-subpage"
+    },
+    "about_secret_daos": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "page-comps.about-subpage"
+    },
+    "about_secret_gaming": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "page-comps.about-subpage"
     }
   }
 }
