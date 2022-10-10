@@ -35,6 +35,9 @@
     "is_anchor": {
       "type": "boolean",
       "default": false
+    },
+    "navigation_level": {
+      "type": "string"
     }
   }
 }
