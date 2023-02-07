@@ -66,8 +66,7 @@
         "dynamic-heros.basic-hero",
         "dynamic-heros.full-image-buttons-content",
         "dynamic-heros.full-image-content",
-        "dynamic-heros.title-block",
-        "dynamic-heros.basic-hero"
+        "dynamic-heros.title-block"
       ],
       "required": true,
       "max": 1
