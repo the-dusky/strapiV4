@@ -7,18 +7,54 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background_color": {
       "type": "string"
     },
-    "width": {
+    "margin_top": {
       "type": "enumeration",
       "enum": [
-        "normal",
-        "full"
+        "none",
+        "small",
+        "medium",
+        "large"
       ],
-      "default": "normal",
+      "default": "small",
+      "required": true
+    },
+    "margin_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small",
+      "required": true
+    },
+    "button_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "center",
       "required": true
     }
   }
