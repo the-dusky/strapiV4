@@ -8,26 +8,33 @@
   "options": {},
   "attributes": {
     "first_paragraph_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "first_paragraph": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": false
     },
     "second_paragraph_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "second_paragraph": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": false
     },
     "is_anchor": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "required": true
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "eyebrow_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "eyebrow_color": {
       "type": "string"
@@ -39,7 +46,8 @@
         "center",
         "right"
       ],
-      "default": "left"
+      "default": "left",
+      "required": true
     },
     "main_title_weight": {
       "type": "enumeration",
@@ -52,7 +60,8 @@
         "H5",
         "H6"
       ],
-      "default": "H1"
+      "default": "H1",
+      "required": true
     },
     "width": {
       "type": "enumeration",
@@ -60,7 +69,8 @@
         "standard",
         "wide"
       ],
-      "default": "standard"
+      "default": "standard",
+      "required": true
     },
     "navigation_level": {
       "type": "enumeration",
@@ -71,7 +81,9 @@
         "fourth",
         "fifth",
         "sixth"
-      ]
+      ],
+      "default": "first",
+      "required": true
     },
     "padding_top": {
       "type": "enumeration",
@@ -81,7 +93,8 @@
         "medium",
         "large"
       ],
-      "default": "none"
+      "default": "none",
+      "required": true
     },
     "padding_bottom": {
       "type": "enumeration",
@@ -91,19 +104,22 @@
         "medium",
         "large"
       ],
-      "default": "small"
+      "default": "small",
+      "required": true
     },
     "first_paragraph_buttons": {
       "type": "component",
       "repeatable": true,
       "component": "dynamics.cta-button",
-      "max": 2
+      "max": 2,
+      "required": false
     },
     "second_paragraph_buttons": {
       "type": "component",
       "repeatable": true,
       "component": "dynamics.cta-button",
-      "max": 2
+      "max": 2,
+      "required": false
     },
     "first_buttons_position": {
       "type": "enumeration",
@@ -128,12 +144,34 @@
     "first_image": {
       "type": "component",
       "repeatable": false,
-      "component": "basics.dynamic-image"
+      "component": "basics.dynamic-image",
+      "required": false
     },
     "second_image": {
       "type": "component",
       "repeatable": false,
-      "component": "basics.dynamic-image"
+      "component": "basics.dynamic-image",
+      "required": false
+    },
+    "first_paragraph_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    },
+    "second_paragraph_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "required": true,
+      "default": "left"
     }
   }
 }

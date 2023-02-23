@@ -51,6 +51,16 @@
       ],
       "default": "small",
       "required": true
+    },
+    "body_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "required": true,
+      "default": "left"
     }
   }
 }
