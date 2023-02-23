@@ -84,7 +84,7 @@
         "sixth"
       ],
       "default": "first",
-      "required": true
+      "required": false
     },
     "width": {
       "type": "enumeration",

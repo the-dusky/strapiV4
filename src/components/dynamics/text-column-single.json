@@ -70,7 +70,7 @@
         "fifth",
         "sixth"
       ],
-      "required": true,
+      "required": false,
       "default": "first"
     },
     "padding_top": {
