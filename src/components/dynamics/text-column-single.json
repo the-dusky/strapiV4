@@ -8,10 +8,12 @@
   "options": {},
   "attributes": {
     "paragraph_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "paragraph": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": false
     },
     "width": {
       "type": "enumeration",
@@ -19,14 +21,17 @@
         "standard",
         "wide"
       ],
-      "default": "standard"
+      "default": "standard",
+      "required": true
     },
     "eyebrow_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "is_anchor": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "required": true
     },
     "eyebrow_color": {
       "type": "string"
@@ -38,7 +43,8 @@
         "center",
         "right"
       ],
-      "default": "left"
+      "default": "left",
+      "required": true
     },
     "paragraph_title_weight": {
       "type": "enumeration",
@@ -50,7 +56,9 @@
         "H4",
         "H5",
         "H6"
-      ]
+      ],
+      "required": true,
+      "default": "H2"
     },
     "navigation_level": {
       "type": "enumeration",
@@ -61,7 +69,9 @@
         "fourth",
         "fifth",
         "sixth"
-      ]
+      ],
+      "required": false,
+      "default": "first"
     },
     "padding_top": {
       "type": "enumeration",
@@ -71,7 +81,8 @@
         "medium",
         "large"
       ],
-      "default": "none"
+      "default": "none",
+      "required": true
     },
     "padding_bottom": {
       "type": "enumeration",
@@ -81,18 +92,31 @@
         "medium",
         "large"
       ],
-      "default": "small"
+      "default": "small",
+      "required": true
     },
     "button": {
       "type": "component",
       "repeatable": false,
       "component": "dynamics.cta-button",
-      "max": 2
+      "max": 2,
+      "required": false
     },
     "image": {
       "type": "component",
       "repeatable": false,
-      "component": "basics.dynamic-image"
+      "component": "basics.dynamic-image",
+      "required": false
+    },
+    "paragraph_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
     }
   }
 }

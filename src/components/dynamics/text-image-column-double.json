@@ -8,10 +8,12 @@
   "options": {},
   "attributes": {
     "paragraph_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "paragraph": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": false
     },
     "image": {
       "type": "media",
@@ -22,7 +24,8 @@
       ]
     },
     "image_description": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "image_position": {
       "type": "enumeration",
@@ -30,17 +33,21 @@
         "left",
         "right"
       ],
-      "default": "right"
+      "default": "right",
+      "required": true
     },
     "is_anchor": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "required": true
     },
     "eyebrow_title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "eyebrow_color": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "paragraph_title_alignment": {
       "type": "enumeration",
@@ -49,7 +56,8 @@
         "center",
         "right"
       ],
-      "default": "left"
+      "default": "left",
+      "required": true
     },
     "paragraph_title_weight": {
       "type": "enumeration",
@@ -61,7 +69,9 @@
         "H4",
         "H5",
         "H6"
-      ]
+      ],
+      "default": "H2",
+      "required": true
     },
     "navigation_level": {
       "type": "enumeration",
@@ -72,7 +82,9 @@
         "fourth",
         "fifth",
         "sixth"
-      ]
+      ],
+      "default": "first",
+      "required": false
     },
     "width": {
       "type": "enumeration",
@@ -80,7 +92,8 @@
         "standard",
         "wide"
       ],
-      "default": "standard"
+      "default": "standard",
+      "required": true
     },
     "padding_top": {
       "type": "enumeration",
@@ -90,7 +103,8 @@
         "medium",
         "large"
       ],
-      "default": "none"
+      "default": "none",
+      "required": true
     },
     "padding_bottom": {
       "type": "enumeration",
@@ -100,13 +114,15 @@
         "medium",
         "large"
       ],
-      "default": "small"
+      "default": "small",
+      "required": true
     },
     "buttons": {
       "type": "component",
       "repeatable": true,
       "component": "dynamics.cta-button",
-      "max": 2
+      "max": 2,
+      "required": false
     },
     "buttons_position": {
       "type": "enumeration",
@@ -121,7 +137,18 @@
     "paragraph_image": {
       "type": "component",
       "repeatable": false,
-      "component": "basics.dynamic-image"
+      "component": "basics.dynamic-image",
+      "required": false
+    },
+    "paragraph_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
     }
   }
 }
