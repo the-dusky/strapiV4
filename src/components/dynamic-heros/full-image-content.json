@@ -26,11 +26,11 @@
       "default": "right",
       "required": true
     },
-    "image_size": {
+    "hero_height": {
       "type": "enumeration",
       "enum": [
         "normal",
-        "full"
+        "full-screen"
       ],
       "default": "normal",
       "required": true
