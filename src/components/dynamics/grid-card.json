@@ -11,23 +11,25 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "description": {
-      "type": "string"
+      "type": "text",
+      "required": false
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "is_external_link": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true,
+      "default": false
     }
   }
 }
